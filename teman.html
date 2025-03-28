@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            height: 100vh;
+            display: flex;  
+            justify-content: center; 
+            align-items: center; 
+            background-image: url('background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d9534f;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .table-container {
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 20px; 
+            width: 500px; 
+            border-radius: 10px; 
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #d9534f;
+            color: white;
+        }
+
+        .nav-links {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-links a { 
+            text-decoration: none; 
+            color: #d9534f;
+            font-weight: bold;
+            padding: 10px 15px;
+            border: 2px solid #d9534f; 
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .nav-links a:hover {
+            background-color: #d9534f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">Daftar 5 Teman Favorit Saya di Kelas</div> 
+        
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Raise Izzati</td>
+                    <td>202332029</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mary Deeporu Monica Tampikamulyane Maromon</td>
+                    <td>202332076</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Zahra Maharani</td>
+                    <td>202332047</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Nur Alya Muhlis</td>
+                    <td>202332069</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Hilda Maghfira Genansi</td>
+                    <td>202332092</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="nav-links">
+            <a href="laporan.html">Laporan Praktikum</a>
+            <a href="form.html">Form Data Mahasiswa</a>
+        </div>
+    </div>
+
+</body>
+</html>
