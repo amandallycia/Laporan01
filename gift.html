@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            height: 100vh;
+            display: flex;  
+            justify-content: center; 
+            align-items: center; 
+            background-image: url('background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .form-container { 
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 30px; 
+            width: 400px; 
+            border-radius: 10px; 
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d9534f;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        input {
+            display: block; 
+            margin: 5px 0; 
+            padding: 10px; 
+            width: 100%; 
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #d9534f; 
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            width: 100%; 
+            border-radius: 5px; 
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #c9302c;
+        }
+    .nav-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a { 
+    text-decoration: none; 
+    color: #d9534f;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #d9534f; 
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    background-color: #d9534f;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">Form Input Data Mahasiswa ITPLN</div>
+        
+        <div class="form-container">
+            <form action="https://giphy.com/search/finish" target="_blank">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="nim">NIM:</label>
+                <input type="text" id="nim" name="nim" required>
+
+                <label for="jurusan">Jurusan:</label>
+                <input type="text" id="jurusan" name="jurusan" required>
+
+                <button type="submit">Kirim Data</button>
+            </form>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Laporan Praktikum</a>
+            <a href="teman.html">5 Teman Favorit</a>
+        </div>
+    </div>
+
+</body>
+</html>
